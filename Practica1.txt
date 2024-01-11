@@ -1,15 +1,12 @@
 /**
  * UPTx - Fundamentos de programacion orientada a objetos
-
  * Practica No. 1     Grupo: 5H
  * Modificacion: 10/ene/2024
  */
-// Definici¢n de la clase Main
+// Definici√≥n de la clase Main
 public class Main {
-    // MÇtodo principal que se ejecuta al correr el programa
+    // M√©todo principal que se ejecuta al correr el programa
     public static void main(String[] args) {
-
-
         // Imprime el mensaje "Hola Mundo"
         System.out.println("------- Hola Mundo -------");
         // Imprime los nombres de los integrantes
