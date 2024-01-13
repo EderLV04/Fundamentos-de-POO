@@ -1,6 +1,7 @@
 /**
  * UPTx - Fundamentos de Programación Orientada a Objetos
- * Practica No. 3     Grupo: 5H
+ * Práctica No. 3     Grupo: 5H
+ * Tema: Obtener datos y conversión de tipos
  * Integrantes: Eder López Villarreal
  * Modificacion: 13/ene/2024
  */
