@@ -21,11 +21,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         //Documentar: Solicita y almacena un número entero que ingresa el usuario
-        System.out.printf("\nDigite un número entero");
+        System.out.printf("\nDigite un número entero: ");
 
         //Documentar: Solicita y almacena un número decimal que ingresa el usuario
         numint = scanner.nextInt();
-        System.out.printf("\nDigite un número decimal");
+        System.out.printf("\nDigite un número decimal: ");
         numdbl = scanner.nextDouble();
 
         //Documentar:Realiza operaciones con los números ingresados por el usuario
@@ -58,11 +58,11 @@ public class Main {
         res6 = (int) numdbl + numint;
 
         // Muestra los resultados de las operaciones
-        System.out.printf("\nEl valor de la operación =" + res1);
-        System.out.printf("\nEl valor de la operación =" + res2);
-        System.out.printf("\nEl valor de la operación =" + res3);
-        System.out.printf("\nEl valor de la operación =" + res4);
-        System.out.printf("\nEl valor de la operación =" + res5);
-        System.out.printf("\nEl valor de la operación =" + res6);
+        System.out.printf("\nEl valor de la operación = " + res1);
+        System.out.printf("\nEl valor de la operación = " + res2);
+        System.out.printf("\nEl valor de la operación = " + res3);
+        System.out.printf("\nEl valor de la operación = " + res4);
+        System.out.printf("\nEl valor de la operación = " + res5);
+        System.out.printf("\nEl valor de la operación = " + res6);
     }
 }
