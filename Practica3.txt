@@ -3,7 +3,7 @@
  * Práctica No. 3     Grupo: 5H
  * Tema: Obtener datos y conversión de tipos
  * Integrantes: Eder López Villarreal
- * Modificacion: 13/ene/2024
+ * Modificación: 13/ene/2024
  */
 
 import java.util.Scanner;
