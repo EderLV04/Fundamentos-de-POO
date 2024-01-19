@@ -1,0 +1,90 @@
+/**
+ * La clase Carro representa un vehículo con atributos como marca, modelo, año de fabricación,
+ * consumo de gas y kilómetros recorridos.
+ */
+public class Carro {
+
+    private final int anoFabricacion;  // Año de fabricación del automóvil (atributo final que no puede ser modificado una vez establecido)
+    private double consumoGas;         // Consumo de gas del automóvil en km/l
+    private double kmRecorridos;       // Kilómetros recorridos por el automóvil
+    private final String marca;        // Marca del automóvil
+    private final String modelo;       // Modelo del automóvil
+
+    /**
+     * Constructor de la clase Carro que inicializa los atributos básicos.
+     *
+     * @param marca          La marca del automóvil.
+     * @param modelo         El modelo del automóvil.
+     * @param anoFabricacion El año de fabricación del automóvil.
+     */
+    public Carro(String marca, String modelo, int anoFabricacion) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.anoFabricacion = anoFabricacion;
+        this.consumoGas = 0.0;      // Se inicializa en 0.0 por defecto
+        this.kmRecorridos = 0.0;    // Se inicializa en 0.0 por defecto
+    }
+
+    /**
+     * Obtiene la marca del automóvil.
+     *
+     * @return La marca del automóvil.
+     */
+    public String getMarca() {
+        return marca;
+    }
+
+    /**
+     * Obtiene el modelo del automóvil.
+     *
+     * @return El modelo del automóvil.
+     */
+    public String getModelo() {
+        return modelo;
+    }
+
+    /**
+     * Obtiene el año de fabricación del automóvil.
+     *
+     * @return El año de fabricación del automóvil.
+     */
+    public int getAnoFabricacion() {
+        return anoFabricacion;
+    }
+
+    /**
+     * Obtiene el consumo de gas del automóvil.
+     *
+     * @return El consumo de gas del automóvil en km/l.
+     */
+    public double getConsumoGas() {
+        return consumoGas;
+    }
+
+    /**
+     * Obtiene los kilómetros recorridos por el automóvil.
+     *
+     * @return Los kilómetros recorridos por el automóvil.
+     */
+    public double getKmRecorridos() {
+        return kmRecorridos;
+    }
+
+    /**
+     * Establece el consumo de gas del automóvil.
+     *
+     * @param consumo El nuevo valor del consumo de gas en km/l.
+     */
+    public void setConsumoGas(double consumo) {
+        this.consumoGas = consumo;
+    }
+
+    /**
+     * Establece los kilómetros recorridos por el automóvil.
+     *
+     * @param km Los nuevos kilómetros recorridos.
+     */
+    public void setKmRecorridos(double km) {
+        this.kmRecorridos = km;
+    }
+}
