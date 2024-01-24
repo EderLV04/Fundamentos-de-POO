@@ -1,15 +1,17 @@
 /**
  * UPTx - Fundamentos de Programación Orientada a Objetos
- * Evidencia No. 1     Grupo: 5H
+ * Practica No. 4     Grupo: 5H
  * Tema: Clase Carro
  * Integrantes: Eder López Villarreal, Jazmin Portillo Michicol, Karen Leticia García Vásquez, Eric Jhonathan Anaya Márquez
- * Objetivo:Realizar una aplicación donde se realice los registros de un coche
- *          para establecer su mantenimiento, consumo de gas y km recorrido.
- * Modificación: 13/ene/2024
+ * Objetivo: Realizar una aplicación donde se realice los registros de un coche
+ *           para establecer su mantenimiento, consumo de gas y km recorrido.
+ * Modificación: 18/ene/2024
  */
 
+import POO.Carro;
 public class Main {
     public static void main(String[] args) {
+
         // Crea tres objetos Carro
         Carro carro1 = new Carro("Toyota", "Corolla", 2020);
         Carro carro2 = new Carro("Honda", "Civic", 2019);
