@@ -1,0 +1,18 @@
+/**
+ * UPTx - Fundamentos de programacion orientada a objetos
+ * Practica No. 1     Grupo: 5H
+ * Modificacion: 10/ene/2024
+ */
+
+// Definición de la clase Main
+public class Main {
+    // Método principal que se ejecuta al correr el programa
+    public static void main(String[] args) {
+        // Imprime el mensaje "Hola Mundo"
+        System.out.println("------- Hola Mundo -------");
+        // Imprime los nombres de los integrantes
+        System.out.println("Integrantes: Eder Lopez Villarreal, Jazmin Portillo Michicol, Eric Jhonathan Anaya Marquez, Karen Garcia Vasquez");
+        // Imprime el objetivo
+        System.out.println("Objetivo: Aprender a programar en Java, Mi primer programa");
+    }
+}
